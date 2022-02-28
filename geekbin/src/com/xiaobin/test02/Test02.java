@@ -1,8 +1,9 @@
 package com.xiaobin.test02;
 
 public class Test02 {
-
+    // 匿名内部类终极目的是简化代码
     public static void main(String[] args) {
+        // 对象回调
         Swimming teacher = new Swimming() {
             @Override
             public void swim() {
