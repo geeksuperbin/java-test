@@ -18,16 +18,16 @@ public class Test02 {
             }
         };
 
-        Swimming sporter = new Swimming() {
+
+        goSwimming(teacher);
+        goSwimming(student);
+        // 将整个对象作为一个参数，和前端好像
+        goSwimming(new Swimming() {
             @Override
             public void swim() {
                 System.out.println("运动员破了纪录");
             }
-        };
-
-        goSwimming(teacher);
-        goSwimming(student);
-        goSwimming(sporter);
+        });
     }
 
     // 定义一个方法，让所有角色进来一起比赛
