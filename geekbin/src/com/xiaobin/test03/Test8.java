@@ -21,11 +21,12 @@ public class Test8 {
         long s = a.getTime() + (2L*24*60*60 + 14*60*60 + 49*60 + 6) * 1000;
 
         // 转成日期对象
-        Date h = new Date(s);
+//        Date h = new Date(s);
 
         // 按日期模板转换成指定日期形式
         // 2021年08月09日 02点00分17秒
-        System.out.println(sdf.format(h));
+//        System.out.println(sdf.format(h));
+        System.out.println(sdf.format(s));
 
 //        System.out.println(h);
 
