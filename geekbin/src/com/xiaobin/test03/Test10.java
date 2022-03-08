@@ -21,6 +21,8 @@ public class Test10 {
         MINUTE=35,SECOND=32,MILLISECOND=774,ZONE_OFFSET=28800000,DST_OFFSET=0]
 
 
+        注意：calendar 是可变日期对象，一旦修改后其对象本身表示的时间将产生变化
+
          */
         // 1. 拿到系统此刻日历对象
         Calendar cal = Calendar.getInstance();
